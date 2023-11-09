@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgba(233, 11, 107, 0.636);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p{
+    color: rgb(42, 106, 165);
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+img{
+    width: 400px;
+    animation: infinite coracao-batendo 1s;
+  
+}
+
+@keyframes coracao-batendo{
+    0%{
+        width: 400px;
+    }
+
+    50%{
+        width: 500px;
+    }
+
+    100%{
+        width: 400px;
+    }
+
+}
